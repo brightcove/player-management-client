@@ -7,6 +7,10 @@ underlying API can be found [here](http://docs.brightcove.com/en/video-cloud/pla
 
 ### Getting Started
 
+```
+npm install player-management-client
+```
+
 Look at examples/list.js as an example of how to use this module.  Two thing to note:
 
   1. This line should refer to the official module rather than the local lib.  Change:
@@ -19,10 +23,10 @@ Look at examples/list.js as an example of how to use this module.  Two thing to 
      to 
      
      ```
-     playerManagementAPI = require('bc-player-management-client')(apiOptions);
+     playerManagementAPI = require('player-management-client')(apiOptions);
      ```
   2. accessToken.  This is a short-lived token created by the OAuth API.  For more information go 
-     [here](http://docs.brightcove.com/en/video-cloud/oauth-api/index.html)
+     [here](https://support.brightcove.com/oauth-guide);
      
 ### License
 
