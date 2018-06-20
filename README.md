@@ -2,7 +2,7 @@ Player Management Client
 ========================
 
 This module can be used to access the Brightcove Player Management API.  Documentation for the 
-underlying API can be found [here](http://docs.brightcove.com/en/video-cloud/player-management/index.html).
+underlying API can be found [here](https://support.brightcove.com/player-management-api)
 
 
 ### Getting Started
