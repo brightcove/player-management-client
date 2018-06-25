@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 var argv = require('yargs')
-    .usage('Usage: $0 -accountId [num] -accessToken [string]')
+    .usage('Usage: $0 --accountId [num] --accessToken [string]')
     .demand(['accountId','accessToken'])
     .argv,
 
